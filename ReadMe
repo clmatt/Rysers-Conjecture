@@ -1,0 +1,13 @@
+Both programs are written in python3
+
+------------------
+-----check.py-----
+------------------
+
+This program checks whether a complete multipartite graph has diameter cover number 3. If the diameter cover number is 3 the program will output a coloring of the edges where there are no covering two monochromatic diameter 2 subgraphs, otherwise the program will terminate. Note that the program only outputs one coloring the first it finds. There may be others. The part sizes can be changed in line 7, this is the only part of the program that needs to be changed.
+
+----------------------
+-----check_G_5.py-----
+----------------------
+
+This program works in a similar way, however it is specific to the graph G_5, as discussed in the paper. It makes use of some results proved in section 4. Because of a loss of generality argument described in the comments, the program must be run twice, once with line 89 uncommented and line 90 commented, and once with line 89 commented and line 90 uncommented. 
